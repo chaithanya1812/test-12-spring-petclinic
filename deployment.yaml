@@ -15,7 +15,7 @@ spec:
     spec:
        containers:
          - name: springcontainer
-           image: chaitu1812/springpet:v1.26
+           image: chaitu1812/springpet:v1.27
            ports:
             - containerPort: 8080
 ---
