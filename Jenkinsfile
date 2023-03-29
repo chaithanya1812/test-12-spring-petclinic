@@ -34,7 +34,7 @@ pipeline{
         }
         stage('SonarQubeReport'){
             steps{
-                echo "sonar"
+                sh 'mvn sonar:sonar'
             }
         }
     
