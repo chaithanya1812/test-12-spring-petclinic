@@ -26,7 +26,7 @@
     <jacoco.version>0.8.8</jacoco.version>
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.38</spring-format.version>
-    <sonar.host.url>http://3.111.42.227:9000/</sonar.host.url>
+    <sonar.host.url>http://3.111.42.227:9000</sonar.host.url>
     <sonar.login>feeafcd3f8ca6880734183f55f30da8b02fa0ee2</sonar.login>
 
   </properties>
