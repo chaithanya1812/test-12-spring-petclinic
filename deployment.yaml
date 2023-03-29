@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: springpet
+        app: petclinic 
     spec:
        containers:
          - name: springcontainer
