@@ -1,13 +1,13 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: springpet:v1.26
+  name: deploymentpetclinic
   namespace: test-cs
 spec:
   replicas: 3
   selector:
    matchLabels:
-     app: springpet
+     app: petclinic
   template:
     metadata:
       labels:
@@ -22,12 +22,12 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: springpet:v1.26
+  name: petclincservcie
   namespace: test-cs
 spec:
   type: NodePort
   selector:
-    app: springpet
+    app: petclinic
   ports:
    - port: 8090
      targetPort: 8080
