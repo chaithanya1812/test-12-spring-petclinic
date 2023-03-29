@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: springpetdeployment
+  name: springpet:v1.26
   namespace: test-ns
 spec:
   replicas: 3
@@ -15,14 +15,14 @@ spec:
     spec:
        containers:
          - name: springcontainer
-           image: chaitu1812/springpet:v1.22
+           image: chaitu1812/springpet:v1.26
            ports:
             - containerPort: 8080
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: springpetservice
+  name: springpet:v1.26
   namespace: test-ns
 spec:
   type: NodePort
