@@ -20,7 +20,7 @@ spec:
     spec:
        containers:
          - name: chatcontainer
-           image: chaitu1812/springpet:24
+           image: chaitu1812/springpet:v1.24
            ports:
             - containerPort: 8080
 ---
